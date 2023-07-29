@@ -11,7 +11,7 @@ const handleSubmit = () => {
   let newListItem = document.createElement("li");
   newListItem.innerText = usersWord;
   if (usersWord.length === 0) {
-    alert("Very funny, bitch. Try again dumb-dumb.");
+    alert("Please enter at least one letter.");
     return;
   }
   if (usersWord.length % 2 === 0) {
